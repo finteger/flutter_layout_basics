@@ -12,7 +12,10 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Text(
+            'Change the message!',
+            style: TextStyle(fontSize: 32, color: Colors.red),
+          ),
         ),
       ),
     );
